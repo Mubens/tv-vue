@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "4.0.0-beta.10"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
@@ -45,8 +46,8 @@
       "prettier --write",
       "git add"
     ],
-    "*.scss": [
-      "stylelint --syntax scss --fix",
+    "*.less": [
+      "stylelint --syntax less --fix",
       "git add"
     ]
   },
@@ -71,10 +72,5 @@
         }
       ]
     }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  }
 }
