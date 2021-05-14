@@ -1,0 +1,46 @@
+@import './assets/less/initial.less';
+@import './assets/less/themes.less';
+@import './assets/less/layout.less';
+
+@import './assets/less/icomoon.css';
+
+.side-box {
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 9999;
+
+  &.narrow {
+    width: 80px;
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      padding: 0 8px;
+      height: 60px;
+    }
+    span {
+      padding: 4px 0 0;
+      font-size: 12px;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.side-box.hide-side.hide {
+  transform: translateX(-100%);
+}
+.side-box.hide-side {
+  box-shadow: -5px 0 10px 5px #00000055;
+  transform: translateX(0);
+  transition: transform 0.2s;
+}
+.page-box.hide-side {
+  margin-left: 0;
+}

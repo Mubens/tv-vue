@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?326pd8');
+  src: url('../fonts/icomoon.eot?326pd8#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?326pd8') format('truetype'), url('../fonts/icomoon.woff?326pd8') format('woff'),
+    url('../fonts/icomoon.svg?326pd8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-delete:before {
+  content: '\e921';
+}
+.icon-search:before {
+  content: '\e920';
+}
+.icon-checked:before {
+  content: '\e91c';
+}
+.icon-ellipsis:before {
+  content: '\e91e';
+}
+.icon-grid:before {
+  content: '\e900';
+}
+.icon-item:before {
+  content: '\e901';
+}
+.icon-mute:before {
+  content: '\e902';
+}
+.icon-play-next:before {
+  content: '\e903';
+}
+.icon-pause:before {
+  content: '\e904';
+}
+.icon-play:before {
+  content: '\e905';
+}
+.icon-to-play:before {
+  content: '\e906';
+}
+.icon-webfull-on:before {
+  content: '\e907';
+}
+.icon-setting:before {
+  content: '\e908';
+}
+.icon-full-screen:before {
+  content: '\e909';
+  color: #fff;
+}
+.icon-wide-on:before {
+  content: '\e90a';
+}
+.icon-webfull-off:before {
+  content: '\e90b';
+}
+.icon-wide-off:before {
+  content: '\e90c';
+}
+.icon-volume:before {
+  content: '\e90d';
+}
+.icon-anime:before {
+  content: '\e91f';
+}
+.icon-danmu-count:before {
+  content: '\e90e';
+}
+.icon-arrow-down:before {
+  content: '\e90f';
+}
+.icon-arrow-left:before {
+  content: '\e910';
+}
+.icon-toggle:before {
+  content: '\e911';
+}
+.icon-play-count:before {
+  content: '\e912';
+}
+.icon-arrow-right:before {
+  content: '\e913';
+}
+.icon-arrow-up:before {
+  content: '\e915';
+}
+.icon-up-zhu:before {
+  content: '\e916';
+}
+.icon-game:before {
+  content: '\e914';
+}
+.icon-history-play:before {
+  content: '\e917';
+}
+.icon-home:before {
+  content: '\e918';
+}
+.icon-movie:before {
+  content: '\e919';
+}
+.icon-later-play:before {
+  content: '\e91a';
+}
+.icon-collection:before {
+  content: '\e91b';
+}
+.icon-subscribe:before {
+  content: '\e91d';
+}

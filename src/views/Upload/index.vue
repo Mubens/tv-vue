@@ -1,0 +1,4 @@
+<template>
+  {{ 'Upload' }}
+</template>
+S
